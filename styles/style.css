@@ -13,7 +13,7 @@ body {
     height: 600px;
     margin: 0px auto;
     color: #ffffff;
-    background-image: url('/images/Banner\ Image.png');
+    background-image: url('../images/Banner\ Image.png');
     border-radius: 16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-size: cover;
@@ -91,7 +91,7 @@ main {
 /* party section styles */
 
 .party {
-    background-image: url('/images/Vectorrr.png');
+    background-image: url('../images/Vectorrr.png');
     display: block;
     margin-left: auto;
     margin-right: auto;
