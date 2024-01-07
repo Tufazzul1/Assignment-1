@@ -12,7 +12,7 @@ body {
     width: 1320px;
     height: 600px;
     margin: 0px auto;
-    color:#ffffff;
+    color: #ffffff;
     background-image: url('/images/Banner\ Image.png');
     border-radius: 16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
@@ -43,12 +43,44 @@ body {
 }
 
 /* main section styles */
-main{
+main {
     margin: 120px;
 
 }
+/* banner section styles */
 
-.banner-content{
-    background-color: aqua;
+.banner{
+    background-color: #ffffff;
+}
+.banner-content {
     text-align: center;
+}
+
+.banner-content h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.banner-content h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.banner-content h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner-img img {
+    align-items: center;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
