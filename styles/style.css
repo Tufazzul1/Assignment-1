@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: opx;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Section Styles */
+.header {
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+    color:#ffffff;
+    background-image: url('/images/Banner\ Image.png');
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-size: cover;
+    align-items: center;
+    position: relative
+}
+
+.header-content {
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+
+}
+
+.header-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+.header-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+/* main section styles */
+main{
+    margin: 120px;
+
+}
+
+.banner-content{
+    background-color: aqua;
+    text-align: center;
+}
