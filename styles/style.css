@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 
 /* Header Section Styles */
@@ -15,11 +16,13 @@ body {
     color: #ffffff;
     background-image: url('../images/Banner\ Image.png');
     border-radius: 16px;
+    background-color: grey;
+    background-blend-mode: multiply;
+    /* mix-blend-mode:darken; */
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-size: cover;
     align-items: center;
     position: relative;
-    border-radius: 15px;
 
 }
 
@@ -45,9 +48,13 @@ body {
 }
 
 /* main section styles */
-main {
-    margin-top: 120px;
-
+.main {
+    max-width: 1320px;
+    margin: 120px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #070211; */
 }
 
 /* banner section styles */
@@ -92,24 +99,26 @@ main {
 
 .party {
     background-image: url('../images/Vectorrr.png');
+    background-color: grey;
+    background-blend-mode: multiply;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
-    width: 1200px;
+    width: 1250px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
     border-radius: 15px;
 }
 
 .party-content {
     width: 65%;
     margin-left: 50px;
+    padding: 50px;
 
 }
 
@@ -128,7 +137,7 @@ main {
     margin-top: 80px;
 }
 
-.banner-content-pera {
+.party-content-pera {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
@@ -162,8 +171,9 @@ main {
     height: 400px;
     width: 1000px;
 }
-.party-2-content{
-   padding-top: 100px;
+
+.party-2-content {
+    padding-top: 100px;
 }
 
 .party-2-content h4 {
@@ -175,11 +185,12 @@ main {
     margin-bottom: 65px;
     line-height: 5px;
 }
-.party-span{
+
+.party-span {
     color: #F00;
 }
 
-.party-2-btn{
+.party-2-btn {
     font-size: 20px;
     font-weight: 700;
     padding: 10px 32px;
@@ -187,4 +198,65 @@ main {
     border-radius: 5px;
     background-color: #F00;
     color: #ffffff;
+}
+
+/* Offer section styles */
+.offer {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.offer-content {
+    width: 40%;
+    padding: 20px;
+}
+
+.offer-content h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 80px;
+
+}
+
+.offer-content h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.offer-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.offer-content1-img img {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.offer-content2{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.offer-content2 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.offer-span {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
 }
