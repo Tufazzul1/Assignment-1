@@ -378,3 +378,42 @@ body {
     text-align: center;
     align-items: center;
 }
+
+.newsletter-content h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.newsletter-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.label{
+    position: relative;
+}
+input{
+    border: none;
+    padding: 15px;
+    width: 250px;
+}
+button{
+    position: absolute;
+    border: none;
+    padding: 15px;
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    width: 150px;
+}
